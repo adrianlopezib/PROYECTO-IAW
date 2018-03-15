@@ -25,7 +25,8 @@
   </header>
   <nav class="side-navigation">
     <ul>
-      <li class="active"><a href="#" data-title="Cuenta Verificada"><i class="fa fa-dashboard"></i>Inicio</a></li>
+      <li><a href="dashboard.php" data-title="Cuenta Verificada"><i class="fa fa-dashboard"></i>Inicio</a></li>
+      <li class="active"><a href="#"><i class="fa fa-ship"></i>Productos</a></li>
     </ul>
   </nav>
 </aside>
@@ -36,24 +37,10 @@
       <input type="text" name="search" placeholder="Buscar..." autocomplete="off"/><i class="fa fa-search"></i>
     </div>
   </header>
-  <div class="container user">
-    <div class="user-card">
-      <figure><img src="https://avatars0.githubusercontent.com/u/35528201?s=400&u=a69129152387cdd76a39044bf402ec80616dadb8&v=4"/></figure>
-      <div class="user-info">
-        <div class="name"> <span>Adrian Lopez				</span><i class="fa fa-check-circle"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
-        <div class="user-role">
-          Estudiante &nbsp; &#8226;<a href="#">Cuenta Verificada</a>
-        </div>
-        <div class="experience-points"><i class=""></i></div>
-      </div>
-    </div>
-    <div class="action-links">
-      <ul>
-        <li><a href="#" data-title="Salir"><i class="fa fa-sign-out"></i></a></li>
-      </ul>
-    </div>
-  </div>
-  <!-- main content-->
+
+
+
+
   <?php
 
 include ('config.php');
@@ -145,7 +132,5 @@ $resultado = mysqli_query($mysqli,"SELECT * from producto");
 
 
 
-
 </html>
-
 

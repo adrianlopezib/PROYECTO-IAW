@@ -57,11 +57,10 @@
     //print_r ($_SESSION);
 
     $email = $_POST['email'];
-    $passsword = md5($_POST['passsword']);
+    $password = md5($_POST['password']);
 
-    $query = "SELECT * FROM usuario WHERE email='$email' AND password='$passsword'";
-    $result = mysqli_query($mysqli, $query);
-    $count = mysqli_num_rows($result);
+    $query =  mysqli_query($mysqli,"SELECT email, password FROM usuario WHERE (email='$email') AND (password='$password')");
+    $count = mysqli_num_rows($query);
 
     if ($count >= 1){
 
@@ -74,7 +73,7 @@
 
     }
 
-    mysqli_close($mysqli);
+    //mysqli_close($mysqli);
 
 
 

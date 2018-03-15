@@ -759,4 +759,88 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPLUAELID5mjfJd0aDsEFIbnEbuYIqN8R0oMivc6NZ
 
 Ubuntu 16.04.3 LTS ubuntu-xenial ttyS0
 
-ubuntu-xenial login: 
+ubuntu-xenial login:          Stopping User Manager for UID 1000...
+         Stopping Sessn         Stopping LSB: automatic crash report generation...
+[  OK  ] Unmounted /var/lib/lxcfs.
+[  OK  ] Stopped Accounts Service.
+[  OK  ] Stopped System Logging Service.
+[  OK  ] Stopped Deferred execution scheduler.
+[  OK  ] Stopped Regular background program processing daemon.
+[  OK  ] Stopped Snappy daemon.
+[  OK  ] Stopped ACPI event daemon.
+[  OK  ] Stopped Authenticate and Authorize Users to Run Privileged Tasks.
+[  OK  ] Stopped Getty on tty1.
+[  OK  ] Stopped Serial Getty on ttyS0.
+[  OK  ] Stopped OpenBSD Secure Shell server.
+[  OK  ] Stopped The PHP 7.0 FastCGI Process Manager.
+[  OK  ] Stopped User Manager for UID 1000.
+[  OK  ] Stopped Session 5 of user ubuntu.
+[  OK  ] Stopped A high performance web server and a reverse proxy server.
+[  OK  ] Stopped Unattended Upgrades Shutdown.
+[  OK  ] Stopped vboxadd.service.
+[  OK  ] Stopped D-Bus System Message Bus.
+[  OK  ] Stopped FUSE filesystem for LXC.
+[  OK  ] Unmounted /vagrant.
+[  OK  ] Stopped LXD - container startup/shutdown.
+[  OK  ] Stopped LSB: Set the CPU Frequency Scaling governor to "ondemand".
+[  OK  ] Stopped LSB: daemon to balance interrupts for SMP systems.
+[  OK  ] Stopped LSB: Record successful boot for GRUB.
+[  OK  ] Stopped LSB: MD monitoring daemon.
+[  OK  ] Stopped LSB: automatic crash report generation.
+[  OK  ] Removed slice User Slice of ubuntu.
+         Stopping Login Service...
+[  OK  ] Removed slice system-serial\x2dgetty.slice.
+[  OK  ] Removed slice system-getty.slice.
+         Stopping Permit User Sessions...
+[  OK  ] Stopped /etc/rc.local Compatibility.
+[  OK  ] Stopped Login Service.
+[  OK  ] Stopped Permit User Sessions.
+[  OK  ] Stopped target Remote File Systems.
+[  OK  ] Stopped target Remote File Systems (Pre).
+         Stopping Login to default iSCSI targets...
+[  OK  ] Stopped target User and Group Name Lookups.
+[  OK  ] Stopped Login to default iSCSI targets.
+[  OK  ] Stopped MySQL Community Server.
+[  OK  ] Stopped target Basic System.
+[  OK  ] Stopped target Slices.
+[  OK  ] Removed slice User and Session Slice.
+[  OK  ] Stopped target Paths.
+[  OK  ] Stopped Dispatch Password Requests to Console Directory Watch.
+[  OK  ] Stopped Forward Password Requests to Wall Directory Watch.
+[  OK  ] Stopped ACPI Events Check.
+[  OK  ] Stopped target Sockets.
+[  OK  ] Closed D-Bus System Message Bus Socket.
+[  OK  ] Closed UUID daemon activation socket.
+[  OK  ] Closed LXD - unix socket.
+[  OK  ] Closed Socket activation for snappy daemon.
+[  OK  ] Closed ACPID Listen Socket.
+[  OK  ] Stopped target System Initialization.
+[  OK  ] Stopped Commit a transient machine-id on disk.
+         Stopping Load/Save Random Seed...
+         Stopping Update UTMP about System Boot/Shutdown...
+[  OK  ] Stopped target Swap.
+[  OK  ] Stopped target Encrypted Volumes.
+[  OK  ] Closed Syslog Socket.
+         Stopping iSCSI initiator daemon (iscsid)...
+[  OK  ] Stopped Load/Save Random Seed.
+[  OK  ] Stopped iSCSI initiator daemon (iscsid).
+[  OK  ] Stopped Update UTMP about System Boot/Shutdown.
+[  OK  ] Stopped Create Volatile Files and Directories.
+[  OK  ] Stopped target Network is Online.
+[  OK  ] Stopped target Network.
+[  OK  ] Stopped Initial cloud-init job (metadata service crawler).
+         Stopping Raise network interfaces...
+[  OK  ] Stopped Raise network interfaces.
+[  OK  ] Stopped target Network (Pre).
+[  OK  ] Stopped Initial cloud-init job (pre-networking).
+[  OK  ] Stopped target Local File Systems.
+         Unmounting /run/user/1000...
+[  OK  ] Stopped Apply Kernel Variables.
+[  OK  ] Stopped Load Kernel Modules.
+[  OK  ] Unmounted /run/user/1000.
+[  OK  ] Reached target Unmount All Filesystems.
+[  OK  ] Stopped target Local File Systems (Pre).
+[  OK  ] Stopped Create Static Device Nodes in /dev.
+[  OK  ] Stopped Remount Root and Kernel File Systems.
+[  OK  ] Reached target Shutdown.
+[ 1096.281099] reboot: Power down
