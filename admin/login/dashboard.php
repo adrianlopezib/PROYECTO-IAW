@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
   
-      <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="css/style.css">
 
   
 </head>
@@ -49,7 +49,7 @@
     </div>
     <div class="action-links">
       <ul>
-        <li><a href="#" data-title="Salir"><i class="fa fa-sign-out"></i></a></li>
+        <li><a href="index.php" data-title="Salir"><i class="fa fa-sign-out"></i></a></li>
       </ul>
     </div>
   </div>
